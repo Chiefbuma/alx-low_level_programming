@@ -4,8 +4,9 @@
 /**
  * main - program that putchar base 10 digit
  *
- * Rerurn: 0
+ * Return: 0
  */
+
 int main(void)
 {
 	int i;
