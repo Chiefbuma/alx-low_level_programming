@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char *rp = "repeat";
+	char *rp = "_putchar";
 
 	while (*rp)
 	{
