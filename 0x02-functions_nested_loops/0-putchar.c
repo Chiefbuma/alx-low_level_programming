@@ -1,19 +1,19 @@
 #include "main.h"
 /**
- * main - _putchar output
+ * main - Entry point
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char *rp = "repeat";
+
+	while (*rp)
+	{
+		_putchar(*rp);
+		rp++;
+	}
 	_putchar('\n');
-return (0);
+
+	return (0);
 }
