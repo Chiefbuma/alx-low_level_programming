@@ -4,7 +4,7 @@
  * @c: letter
  * Return: 1 if c is a letter (lower or uppercase), 0 otherwise
  */
-int _isalpha(int r )
+int _iisalpha(int r )
 {
 	if (((r >= 'a') && (r <= 'z')) || ((r >= 'A') && (r <= 'Z')))
 		return (1);
