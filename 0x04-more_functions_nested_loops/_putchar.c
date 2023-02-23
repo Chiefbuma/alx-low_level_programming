@@ -1,12 +1,12 @@
-i#include" main.h"
+#include" main.h"
 #include <unistd.h>
 
 /**
  * _putchar - prints char c
  * @c: Print this char
  *
- * Return On succes 1
- * On error, 0 is returned
+ * Return:1 on succes
+ * On error, -1  is returned
  */
 int _putchar(char c)
 {
