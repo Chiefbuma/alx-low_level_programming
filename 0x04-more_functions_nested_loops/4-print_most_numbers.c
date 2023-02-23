@@ -1,12 +1,12 @@
 #include "main.h"
 /**
+ * print_most_numbers - print most numbers
+ *
  * _putchar - print the results
- *
- * print_most_numbers -  describe function
- *
  * Return: void
  */
-int print_most_numbers(void)
+void print_most_numbers(void)
+
 {
 	char i;
 
