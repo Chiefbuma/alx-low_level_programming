@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * print_number -  checks for checks for a digit (0 through 9).
- * @n: n -  Variable
- * Return: Always 0.
+ * print_number -  print number
+ * @n: is a var
+ * Return:  0.
  */
 void print_number(int n)
 {
-	unsigned int z;
-	int m, b;
+	unsigned int y;
+	int l, a;
 
-	b = 10;
+	a = 10;
 
 	if (n < 10 && n >= 0)
 	{
@@ -30,17 +30,17 @@ void print_number(int n)
 			n = n * -1;
 			_putchar ('-');
 		}
-		z = n;
-	while (z / b > 9)
+		y = n;
+	while (y / a > 9)
 	{
-		b = b * 10;
+		a = a * 10;
 	}
-	while (b > 0)
+	while (a > 0)
 	{
-		m = z / b;
-		z = z % b;
-		_putchar (m + '0');
-		b = b / 10;
+		n = y / b;
+		y = y % a;
+		_putchar (l + '0');
+		a = a / 10;
 	}
 	}
 }
