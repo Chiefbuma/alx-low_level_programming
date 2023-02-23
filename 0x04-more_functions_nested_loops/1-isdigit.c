@@ -1,5 +1,5 @@
 #include "main.h"
-i
+
 /**
  *  _isdigit -  checks fo digit
  * @c: char to be check
@@ -8,7 +8,7 @@ i
 int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
-		return (1)
+		return (1);
 	else
-		return (0)
+		return (0);
 }
