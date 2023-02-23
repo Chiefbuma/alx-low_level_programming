@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * print_number -  print number
+ * print_number -  print numbers
  * @n: is a var
  * Return:  0.
  */
 void print_number(int n)
 {
-	unsigned int y;
-	int l, a;
+	unsigned int z;
+	int m, b;
 
-	a = 10;
+	b = 10;
 
 	if (n < 10 && n >= 0)
 	{
@@ -30,18 +30,17 @@ void print_number(int n)
 			n = n * -1;
 			_putchar ('-');
 		}
-		y = n;
-	while (y / a > 9)
+		z = n;
+	while (z / b > 9)
 	{
-		a = a * 10;
+		b = b * 10;
 	}
-	while (a > 0)
+	while (b > 0)
 	{
-		n = y / b;
-		y = y % a;
-		_putchar (l + '0');
-		a = a / 10;
+		m = z / b;
+		z = z % b;
+		_putchar (m + '0');
+		b = b / 10;
 	}
 	}
 }
-
