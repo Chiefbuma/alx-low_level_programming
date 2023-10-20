@@ -11,8 +11,8 @@ i = 0;
 
 while (i <= 10)
 {
-
-while (x <= 'z')
+	x = 'a';
+	while (x <= 'z')
 {
 	_putchar(x);
 	x++;
@@ -20,5 +20,4 @@ while (x <= 'z')
 _putchar('\n');
 i++;
 }
-x = 'a';
 }
