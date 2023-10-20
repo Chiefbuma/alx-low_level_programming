@@ -1,9 +1,7 @@
 #include "main.h"
-
 /**
- * @x: the character to check
- * @i: the times to loop
- * print_alphabet - prints alphabet folled by new line
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
+ * followed by a new line
  */
 void print_alphabet_x10(void)
 {
