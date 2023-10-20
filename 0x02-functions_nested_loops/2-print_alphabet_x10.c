@@ -16,7 +16,7 @@ while (x <= 'z')
 	_putchar(x);
 	x++;
 }
-x = 'a'
+x = 'a';
 }
 _putchar('\n');
 }
