@@ -3,7 +3,7 @@
 /**
  * print_alphabet - prints alphabet folled by new line
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 char x = 'a';
 int i;
