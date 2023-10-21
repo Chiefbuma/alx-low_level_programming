@@ -20,6 +20,8 @@ _putchar(h / 10 + '0');
 _putchar(':');
 _putchar(m % 10 + '0');
 _putchar('\n');
+m++;
 }
+h++;
 }
 }
