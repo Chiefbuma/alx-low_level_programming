@@ -13,7 +13,7 @@ for (int m = 0; m < 10; m++)
 {
 int m  =  m * l;
 if (m == 0)
-{_putchar(k + '0');
+{_putchar(n + '0');
 }
 if (n < 10 && m != 0)
 {_putchar(',');
