@@ -6,9 +6,9 @@
  * @b: integers
  * Return: sum of a and b
  */
-int add(int a, int b)
+int add(int i, int j)
 {
-int c;
-c = a + b;
-return (c);
+int k;
+k = i + j;
+return (k);
 }
