@@ -4,6 +4,8 @@
  * times_table - prints the  9 time tabe
  */
 void times_table(void)
+{
+int l, m, n;
 
 for (int l  = 0; l  <= 9; l++)
 {
