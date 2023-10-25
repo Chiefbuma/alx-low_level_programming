@@ -17,13 +17,12 @@ return (n);
 else
 {
 int i = 1;
-while (i * i <= n)
+for  (i = 1; i * i <= n; i++)
 {
 if (i * i == n)
 {
 return (i);
 }
-i++;
 }
 return (-1);
 }
