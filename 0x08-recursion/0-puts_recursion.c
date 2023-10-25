@@ -2,6 +2,7 @@
 /**
  * _puts_recursion - the name of the function
  * @s: here is the input
+ * _putchar - another function
  * Return: 0
  */
 void _puts_recursion(char *s)
