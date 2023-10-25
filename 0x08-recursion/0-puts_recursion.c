@@ -1,5 +1,6 @@
 /**
-*_puts_recursion - function itself );
+*_puts_recursion - function itself )
+*_putchar - function
 *@s: the input
 *Return:Always 0
 */
