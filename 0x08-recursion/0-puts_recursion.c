@@ -1,3 +1,4 @@
+#incude "main.h"
 /**
 *_puts_recursion - function itself )
 *_putchar - function
