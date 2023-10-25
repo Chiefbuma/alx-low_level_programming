@@ -1,4 +1,4 @@
-#include "main.hi"
+#include "main.h"
 
 /**
  * real_sqrt_recursion - square root of a number.
