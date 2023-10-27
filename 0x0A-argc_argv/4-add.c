@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _atoi - converts a string to an integer
- * @s: string to be converted
- * Return: the int converted from the string
+ * _atoi - converts to  integer
+ * @s: string
+ * Return: int to string
  */
 
 int _atoi(char *s)
@@ -44,10 +44,10 @@ return (0);
 return (n);
 }
 /**
- * main - adds two positive numbers
- * @argc: number of arguments
- * @argv: array of arguments
- * Return: 0 (Success), or 1 (Error)
+ * main - addition
+ * @argc: arguments
+ * @argv: array
+ * Return: 0  or 1
  */
 int main(int argc, char *argv[])
 {
