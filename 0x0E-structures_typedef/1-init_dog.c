@@ -3,7 +3,7 @@
 
 /**
  * init_dog - struct dog
- * @d: pointer
+ * @x: pointer
  * @name: name
  * @age: age
  * @owner: owner
