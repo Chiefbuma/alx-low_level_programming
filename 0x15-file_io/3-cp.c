@@ -6,25 +6,24 @@ char *create_buffer(char *file);
 void close_file(int fd);
 
 /**
- * create_buffer - Allocates 1024 bytes for a buffer.
- * @file: The name of the file buffer is storing chars for.
- *
- * Return: A pointer to the newly-allocated buffer.
+ * create_buffer - Allocates buffer
+ * @file: stored chars
+ * Return: A pointer
  */
 char *create_buffer(char *file)
 {
-char *buffer;
+	char *buffer;
 
-buffer = malloc(sizeof(char) * 1024);
+	buffer = malloc(sizeof(char) * 1024);
 
-if (buffer == NULL)
-{
-dprintf(STDERR_FILENO,
-"Error: Can't write to %s\n", file);
-exit(99);
-}
+	if (buffer == NULL)
+	{
+		dprintf(STDERR_FILENO,
+			"Error: Can't write to %s\n", file);
+		exit(99);
+	}
 
-return (buffer);
+	return (buffer);
 }
 
 /**
@@ -33,29 +32,20 @@ return (buffer);
  */
 void close_file(int fd)
 {
-int i;
+	int i;
 
-i = close(fd);
+	i = close(fd);
 
-if (i == -1)
-{
-dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
-exit(100);
-}
+	if (i == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
+		exit(100);
+	}
 }
 
 /**
- * main - Copies the contents of a file to another file.
- * @argc: The number of arguments supplied to the program.
- * @argv: An array of pointers to the arguments.
+ * main - Copies to another file.
+ * @argc: arguments
+ * @argv: An array
  *
- * Return: 0 on success.
- *
- * Description: If the argument count is incorrect - exit code 97.
- *              If file_from does not exist or cannot be read - exit code 98.
- *              If file_to cannot be created or written to - exit code 99.
- *              If file_to or file_from cannot be closed - exit code 100.
- */
-int main(int argc, char *argv[])
-{
-int frm, tu, l, q;
+ * Return: 0 on success
